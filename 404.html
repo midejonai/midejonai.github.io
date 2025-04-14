@@ -1,16 +1,11 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>Redirecting…</title>
     <script>
-      // Redirect back to index.html and preserve the path
-      const path = location.pathname + location.search + location.hash
-      sessionStorage.redirect = path
-      location.replace('/')
+      // Capture the intended path and redirect
+      const path = window.location.pathname
+      sessionStorage.setItem('redirect', path)
+      window.location.replace('/')
     </script>
   </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
 </html>

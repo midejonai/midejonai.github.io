@@ -9,6 +9,14 @@
     <link rel="stylesheet" crossorigin href="/assets/index-C7srthaC.css">
   </head>
   <body>
+    <script>
+      // Add this at the top of your index.html (before the Vue app loads)
+      const redirect = sessionStorage.getItem('redirect')
+      if (redirect && redirect !== window.location.pathname) {
+        sessionStorage.removeItem('redirect')
+        window.history.replaceState({}, '', redirect)
+      }
+    </script>
     <div id="app"></div>
   </body>
 </html>
