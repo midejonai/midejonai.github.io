@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://midejonai.github.io/sitemap.xml
