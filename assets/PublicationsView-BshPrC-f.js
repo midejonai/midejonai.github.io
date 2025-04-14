@@ -1,1 +1,0 @@
-import{_ as e,o,c as s,d as t}from"./index-DOaIkYAW.js";const c={},a=t("h1",null,"This is a page about publications.",-1),n=[a];function i(_,r){return o(),s("div",null,n)}const d=e(c,[["render",i]]);export{d as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as s,c,d as o}from"./index-DOaIkYAW.js";const t={},a=o("h1",null,"This is a page about music.",-1),n=[a];function _(r,i){return s(),c("div",null,n)}const l=e(t,[["render",_]]);export{l as default};
